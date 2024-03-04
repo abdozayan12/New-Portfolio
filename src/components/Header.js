@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Header.css';
 
 const Header = () => (
-  <header>
-    <nav>
+  <header className="header">
+    <nav className="header-comp">
       <ul>
         <li><a href="#About">About</a></li>
         <li><a href="#Projects">Projects</a></li>
