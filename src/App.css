@@ -5,6 +5,13 @@
   gap: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 15px;
+  margin-top: 50px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
