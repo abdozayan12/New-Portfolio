@@ -22,3 +22,5 @@ const Projects = () => (
         </section>
     </div>
 );
+
+export default Projects;
