@@ -1,16 +1,11 @@
-// Purpose: To store the data for the projects section of the portfolio.
-// This data will be used to generate the project cards in the Projects section of the portfolio.
-// The App component will be used in the index.js file.
-// The index.html file will be used to render the portfolio to the browser.
-// The portfolio will be used to showcase the projects that I have worked on.
+import project1 from '../assets/projects/conference.png';
 
-// The data for the projects section of the portfolio
 const ProjectsData = [
   {
     id: 1,
-    title: 'Project 1',
+    title: 'Conference Page',
     description: 'This is a project about...',
-    image: 'project1.png',
+    image: project1,
     Githublink: '#',
     LiveDemo: '#',
   },
