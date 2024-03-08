@@ -2,6 +2,7 @@ import project1 from '../assets/projects/conference.png';
 import project2 from '../assets/projects/dish.png';
 import project3 from '../assets/projects/todo.png';
 import project4 from '../assets/projects/space.png';
+import project5 from '../assets/projects/country.png';
 
 const ProjectsData = [
   {
@@ -33,6 +34,14 @@ const ProjectsData = [
     title: 'Space Traveller',
     description: 'This is a project about...',
     image: project4,
+    Githublink: '#',
+    LiveDemo: '#',
+  },
+  {
+    id: 5,
+    title: 'Country Explorer',
+    description: 'This is a project about...',
+    image: project5,
     Githublink: '#',
     LiveDemo: '#',
   },
