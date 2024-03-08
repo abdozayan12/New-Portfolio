@@ -1,4 +1,5 @@
 import project1 from '../assets/projects/conference.png';
+import project2 from '../assets/projects/dish.png';
 
 const ProjectsData = [
   {
@@ -11,9 +12,9 @@ const ProjectsData = [
   },
   {
     id: 2,
-    title: 'Project 2',
+    title: 'Dish Discovery',
     description: 'This is a project about...',
-    image: 'project2.png',
+    image: project2,
     Githublink: '#',
     LiveDemo: '#',
   },
