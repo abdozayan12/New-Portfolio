@@ -37,8 +37,8 @@ const ProjectsData = [
     title: 'Space Traveller',
     description: 'This is a project about...',
     image: project4,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/space_travelers',
+    LiveDemo: 'https://space-traveler-1wv4.onrender.com/',
   },
   {
     id: 5,
