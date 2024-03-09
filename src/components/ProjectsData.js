@@ -13,8 +13,8 @@ const ProjectsData = [
     title: 'Conference Page',
     description: 'This is a project about...',
     image: project1,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/capstone-project---Conference-page',
+    LiveDemo: 'https://abdozayan12.github.io/capstone-project---Conference-page/',
   },
   {
     id: 2,
