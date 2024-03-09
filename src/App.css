@@ -8,7 +8,7 @@
 .container {
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 15px;
   padding: 15px;
   margin-top: 50px;
 }
