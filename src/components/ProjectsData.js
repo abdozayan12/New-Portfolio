@@ -61,8 +61,8 @@ const ProjectsData = [
     title: 'Resort Vista',
     description: 'This is a project about...',
     image: project7,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/resort-back-end',
+    LiveDemo: 'https://resortvista.onrender.com/',
   },
   {
     id: 8,
