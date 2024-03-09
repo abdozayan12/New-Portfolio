@@ -53,8 +53,8 @@ const ProjectsData = [
     title: 'Budget App',
     description: 'This is a project about...',
     image: project6,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/Budget-App',
+    LiveDemo: 'https://github.com/abdozayan12/Budget-App?tab=readme-ov-file#-live-demo-',
   },
   {
     id: 7,
