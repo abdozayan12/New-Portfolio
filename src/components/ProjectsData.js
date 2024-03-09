@@ -45,8 +45,8 @@ const ProjectsData = [
     title: 'Country Explorer',
     description: 'This is a project about...',
     image: project5,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/REACT-CAPSTONE-PROJECT',
+    LiveDemo: 'https://react-capstone-project-05mk.onrender.com/',
   },
   {
     id: 6,
