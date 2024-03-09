@@ -21,8 +21,8 @@ const ProjectsData = [
     title: 'Dish Discovery',
     description: 'This is a project about...',
     image: project2,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/Dish-Discovery',
+    LiveDemo: 'https://abdozayan12.github.io/Dish-Discovery/dist/',
   },
   {
     id: 3,
