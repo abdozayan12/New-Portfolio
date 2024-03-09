@@ -5,6 +5,7 @@ import project4 from '../assets/projects/space.png';
 import project5 from '../assets/projects/country.png';
 import project6 from '../assets/projects/budget.png';
 import project7 from '../assets/projects/resort.png';
+import project8 from '../assets/projects/weather.png';
 
 const ProjectsData = [
   {
@@ -60,6 +61,14 @@ const ProjectsData = [
     title: 'Resort Vista',
     description: 'This is a project about...',
     image: project7,
+    Githublink: '#',
+    LiveDemo: '#',
+  },
+  {
+    id: 8,
+    title: 'Weather App',
+    description: 'This is a project about...',
+    image: project8,
     Githublink: '#',
     LiveDemo: '#',
   },
