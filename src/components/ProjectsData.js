@@ -29,8 +29,8 @@ const ProjectsData = [
     title: 'To Do List',
     description: 'This is a project about...',
     image: project3,
-    Githublink: '#',
-    LiveDemo: '#',
+    Githublink: 'https://github.com/abdozayan12/To-Do-List',
+    LiveDemo: 'https://abdozayan12.github.io/To-Do-List/dist/',
   },
   {
     id: 4,
