@@ -8,7 +8,7 @@ const Contact = () => (
       <p>Send us a message!</p>
     </div>
     <div>
-      <form>
+      <form action="https://formspree.io/f/mjvdlwek" method="post">
         <label htmlFor="name">
           Name
           <input type="text" name="name" placeholder="Enter your name" />
