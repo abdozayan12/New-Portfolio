@@ -9,23 +9,23 @@ const Contact = () => (
     </div>
     <div>
       <form action="https://formspree.io/f/mjvdlwek" method="post">
-        <div class="form-group">
-        <label htmlFor="name">
-          Name
-          <input type="text" name="name" placeholder="Enter your name" />
-        </label>
+        <div className="form-group">
+          <label htmlFor="name">
+            Name
+            <input type="text" name="name" placeholder="Enter your name" />
+          </label>
         </div>
-        <div class="form-group">
-        <label htmlFor="Email">
-          Email
-          <input type="email" name="email" placeholder="abd@mail.com" />
-        </label>
+        <div className="form-group">
+          <label htmlFor="Email">
+            Email
+            <input type="email" name="email" placeholder="abd@mail.com" />
+          </label>
         </div>
-        <div class="form-group">
-        <label htmlFor="Message">
-          Message
-          <textarea name="message" placeholder="Write your message" />
-        </label>
+        <div className="form-group">
+          <label htmlFor="Message">
+            Message
+            <textarea name="message" placeholder="Write your message" />
+          </label>
         </div>
         <button type="submit">Get in touch</button>
       </form>
