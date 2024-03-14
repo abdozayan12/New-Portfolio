@@ -43,7 +43,7 @@ const ProjectsData = [
   {
     id: 5,
     title: 'Country Explorer',
-    description: 'This is a project about...',
+    description: 'Explore The Countries" is a web application built using React and Redux that displays information about different countries.',
     image: project5,
     Githublink: 'https://github.com/abdozayan12/REACT-CAPSTONE-PROJECT',
     LiveDemo: 'https://react-capstone-project-05mk.onrender.com/',
