@@ -8,7 +8,7 @@ const Contact = () => (
       <p>Send us a message!</p>
     </div>
     <div>
-      <form action="https://formspree.io/f/mjvdlwek" method="post">
+      <form action="https://formspree.io/f/mjvdlwek" method="post" className="form">
         <div className="form-group">
           <label htmlFor="name">
             Name
@@ -18,7 +18,7 @@ const Contact = () => (
         <div className="form-group">
           <label htmlFor="Email">
             Email
-            <input type="email" name="email" placeholder="abd@mail.com" />
+            <input type="email" name="email" id="email" placeholder="abd@mail.com" />
           </label>
         </div>
         <div className="form-group">
@@ -32,5 +32,20 @@ const Contact = () => (
     </div>
   </div>
 );
+
+// validate Email //
+
+const form = document.querySelector('.form');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const emailel = document.getElementById('email').value;
+  const valid = document.querySelector('.invalid');
+  if (emailel !== emailel.toLowerCase()) {
+    valid.innerText = 'please enter a correct email address format';
+  } else {
+    form.submit();
+  }
+});
 
 export default Contact;

@@ -11,7 +11,7 @@ const ProjectsData = [
   {
     id: 1,
     title: 'Conference Page',
-    description: 'This is a project about...',
+    description: 'The Conference Page is a responsive and dynamic website created using HTML, CSS and javascript.',
     image: project1,
     Githublink: 'https://github.com/abdozayan12/capstone-project---Conference-page',
     LiveDemo: 'https://abdozayan12.github.io/capstone-project---Conference-page/',
