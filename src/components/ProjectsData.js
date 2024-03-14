@@ -59,7 +59,7 @@ const ProjectsData = [
   {
     id: 7,
     title: 'Resort Vista',
-    description: 'This is a project about...',
+    description: 'Resort Vista is a web application built with a Ruby on Rails backend API and a React frontend UI, offering users a platform to explore and manage resort reservations.',
     image: project7,
     Githublink: 'https://github.com/abdozayan12/resort-back-end',
     LiveDemo: 'https://resortvista.onrender.com/',
