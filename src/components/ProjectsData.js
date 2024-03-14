@@ -51,7 +51,7 @@ const ProjectsData = [
   {
     id: 6,
     title: 'Budget App',
-    description: 'This is a project about...',
+    description: 'Budget App is an app for tracking your budget by creating categories and add transactions to these categories.',
     image: project6,
     Githublink: 'https://github.com/abdozayan12/Budget-App',
     LiveDemo: 'https://github.com/abdozayan12/Budget-App?tab=readme-ov-file#-live-demo-',
