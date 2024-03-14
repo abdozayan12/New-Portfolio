@@ -33,19 +33,4 @@ const Contact = () => (
   </div>
 );
 
-// validate Email //
-
-const form = document.querySelector('.form');
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  const emailel = document.getElementById('email').value;
-  const valid = document.querySelector('.invalid');
-  if (emailel !== emailel.toLowerCase()) {
-    valid.innerText = 'please enter a correct email address format';
-  } else {
-    form.submit();
-  }
-});
-
 export default Contact;
