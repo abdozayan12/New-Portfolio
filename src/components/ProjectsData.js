@@ -11,7 +11,7 @@ const ProjectsData = [
   {
     id: 1,
     title: 'Conference Page',
-    description: 'This is a project about...',
+    description: 'The Conference Page is a responsive and dynamic website created using HTML, CSS and javascript.',
     image: project1,
     Githublink: 'https://github.com/abdozayan12/capstone-project---Conference-page',
     LiveDemo: 'https://abdozayan12.github.io/capstone-project---Conference-page/',
@@ -19,7 +19,7 @@ const ProjectsData = [
   {
     id: 2,
     title: 'Dish Discovery',
-    description: 'This is a project about...',
+    description: 'The Meal DB, is a web application that utilizes an external API to provide a comprehensive database of meals.',
     image: project2,
     Githublink: 'https://github.com/abdozayan12/Dish-Discovery',
     LiveDemo: 'https://abdozayan12.github.io/Dish-Discovery/dist/',
@@ -35,7 +35,7 @@ const ProjectsData = [
   {
     id: 4,
     title: 'Space Traveller',
-    description: 'This is a project about...',
+    description: 'Space Travelers Hub, a web application that connects adventurous travelers with commercial and scientific space travel services.',
     image: project4,
     Githublink: 'https://github.com/abdozayan12/space_travelers',
     LiveDemo: 'https://space-traveler-1wv4.onrender.com/',
@@ -43,7 +43,7 @@ const ProjectsData = [
   {
     id: 5,
     title: 'Country Explorer',
-    description: 'This is a project about...',
+    description: 'Explore The Countries" is a web application built using React and Redux that displays information about different countries.',
     image: project5,
     Githublink: 'https://github.com/abdozayan12/REACT-CAPSTONE-PROJECT',
     LiveDemo: 'https://react-capstone-project-05mk.onrender.com/',
@@ -51,7 +51,7 @@ const ProjectsData = [
   {
     id: 6,
     title: 'Budget App',
-    description: 'This is a project about...',
+    description: 'Budget App is an app for tracking your budget by creating categories and add transactions to these categories.',
     image: project6,
     Githublink: 'https://github.com/abdozayan12/Budget-App',
     LiveDemo: 'https://github.com/abdozayan12/Budget-App?tab=readme-ov-file#-live-demo-',
@@ -59,7 +59,7 @@ const ProjectsData = [
   {
     id: 7,
     title: 'Resort Vista',
-    description: 'This is a project about...',
+    description: 'Resort Vista is a web application built with a Ruby on Rails backend API and a React frontend UI, offering users a platform to explore and manage resort reservations.',
     image: project7,
     Githublink: 'https://github.com/abdozayan12/resort-back-end',
     LiveDemo: 'https://resortvista.onrender.com/',
