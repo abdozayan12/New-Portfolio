@@ -19,7 +19,7 @@ const ProjectsData = [
   {
     id: 2,
     title: 'Dish Discovery',
-    description: 'This is a project about...',
+    description: 'The Meal DB, is a web application that utilizes an external API to provide a comprehensive database of meals.',
     image: project2,
     Githublink: 'https://github.com/abdozayan12/Dish-Discovery',
     LiveDemo: 'https://abdozayan12.github.io/Dish-Discovery/dist/',
