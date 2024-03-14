@@ -35,7 +35,7 @@ const ProjectsData = [
   {
     id: 4,
     title: 'Space Traveller',
-    description: 'This is a project about...',
+    description: 'Space Travelers Hub, a web application that connects adventurous travelers with commercial and scientific space travel services.',
     image: project4,
     Githublink: 'https://github.com/abdozayan12/space_travelers',
     LiveDemo: 'https://space-traveler-1wv4.onrender.com/',
