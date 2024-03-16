@@ -12,4 +12,5 @@ const Welcoming = () => (
         </p>
     </section>
     );
-)
+
+export default Welcoming;
