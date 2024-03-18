@@ -1,16 +1,17 @@
-import React from 'react';
-import '../styles/Header.css';
+import React from 'react'
+import './Header.css'
 
-const Header = () => (
-  <header className="header">
-    <nav className="header-comp">
-      <ul>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-);
+const Header = () => {
+  return (
+    <nav className="navBar">
+      <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="Docplanner Group" />
+      <div className="menu">
 
-export default Header;
+      </div>
+      <button className="Contact">Contact Me</button>
+    </nav>  
+  )
+}
+
+export default Header
+
