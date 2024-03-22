@@ -16,8 +16,26 @@
 .menu a {
   text-decoration: none;
   color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .menu a:hover {
   color: #007bff;
+}
+
+.navBar button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  background-color: transparent;
+  border: 2px solid #333;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+}
+
+.navBar button:hover {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
 }
