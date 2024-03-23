@@ -5,7 +5,7 @@ import Typed from 'typed.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import './intro.css';
+import './Intro.css';
 
 const Intro = () => {
   const typedText = useRef(null);
