@@ -34,10 +34,10 @@ const Intro = () => {
     <section className="homepage" id="homepage">
       <div className="homepage-content">
         <h1>Hi, I&apos;m Abdelhakim Zayan</h1>
-        <p>
+        <p className="me">
           <span ref={typedText} />
         </p>
-        <p className="intro-about">
+        <p className="about-me">
           A passionate Full Stack Developer, crafting seamless web applications.
           <br />
           I&apos;ve spent
