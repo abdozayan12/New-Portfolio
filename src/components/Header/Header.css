@@ -31,16 +31,16 @@
   text-decoration: none;
 }
 
-.menu a:hover {
-  color: #007BFF;
-}
-
 .CV a {
   color: #fff;
   text-decoration: none;
   background-color: #033f7f;
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+.menu a:hover {
+  color: #007bff;
 }
 
 .CV a:hover {
