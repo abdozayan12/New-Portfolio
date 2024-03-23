@@ -29,6 +29,7 @@
 .menu a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.4rem;
 }
 
 .CV a {
@@ -37,6 +38,7 @@
   background-color: #033f7f;
   padding: 10px 20px;
   border-radius: 5px;
+  font-size: 1.4rem;
 }
 
 .menu a:hover {
