@@ -4,8 +4,10 @@ import Intro from './components/intro/Intro';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Intro />
+      <div>
+        <Header />
+        <Intro />
+      </div>
     </div>
   );
 }
