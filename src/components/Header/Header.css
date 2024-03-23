@@ -1,41 +1,49 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  z-index: 100;
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  height: 30px;
 }
 
 .menu {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  justify-content: center; /* Align the menu items in the center of the div */
+  gap: 20px;
 }
 
 .menu a {
+  color: #fff;
   text-decoration: none;
-  color: #333;
-  font-size: 1.5rem;
-  font-weight: 700;
 }
 
 .menu a:hover {
-  color: #007bff;
+  color: #007BFF;
 }
 
-.navBar button {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #333;
-  background-color: transparent;
-  border: 2px solid #333;
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
-}
-
-.navBar button:hover {
-  background-color: #007bff;
+.CV a {
   color: #fff;
-  cursor: pointer;
+  text-decoration: none;
+  background-color: #033f7f;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.CV a:hover {
+  background-color: #499ffc;
+  color: blanchedalmond;
 }
