@@ -1,0 +1,26 @@
+:root {
+    --tw-gradient-from-position: 0%;
+    --tw-gradient-to-position: 100%;
+}
+
+.homepage {
+    /* padding: 1rem 2rem; */
+    background-color: #f8f9fa;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.homepage-content h1 {
+    font-family: __Inter_e66fe9,__Inter_Fallback_e66fe9;
+    font-weight: 800;
+    font-size: 3rem;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    --tw-gradient-from: #1d569b var(--tw-gradient-from-position);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #117435 var(--tw-gradient-to-position);
+    background-clip: text;
+    color: transparent;
+}
