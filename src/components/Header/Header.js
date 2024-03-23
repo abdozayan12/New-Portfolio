@@ -9,8 +9,9 @@ const Header = () => (
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
-    <button type="button" className="Contact">Contact Me</button>
+    <button type="button" className="CV">Get my CV</button>
   </nav>
 );
 
