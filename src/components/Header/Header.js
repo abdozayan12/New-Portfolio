@@ -1,11 +1,14 @@
-import React from 'react';
+import { useRef } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import './Header.css';
 import logo from '../assets/My Logo.jpg';
 
 function Header() {
+  const menuIcon = useRef();
+
   return (
     <section className="fixed">
-      <nav className="navBar">
+      <nav className="navBar" ref={menuIcon}>
         <div>
           <img src={logo} alt="Logo" className="logo" />
         </div>
@@ -18,7 +21,11 @@ function Header() {
         <div className="CV">
           <a href="https://drive.google.com/file/d/1gnCYa93ft0sJdpm4BpnEwZ6ZBRhK8wqJ/view?usp=sharing" target="_blank" rel="noreferrer">Get my CV</a>
         </div>
+        <button type="button" className="menu-icon" aria-label="close menu">
+          <FaTimes />
+        </button>
       </nav>
+      <button type="button" className="menu-icon" aria-label="Open menu"><FaBars /></button>
     </section>
 
   );
