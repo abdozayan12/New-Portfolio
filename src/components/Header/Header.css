@@ -65,37 +65,20 @@
 
   .menu-icon {
     display: block;
-    cursor: pointer;
   }
 
-  .menu-icon i {
-    font-size: 2rem;
-    color: #fff;
-  }
-
-  .menu-icon i:hover {
-    color: #007bff;
-  }
-
-  .menu-active {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
+  .menu-icon button {
     background-color: #333;
-    z-index: 100;
-  }
-
-  .menu-active a {
     color: #fff;
-    text-decoration: none;
+    border: none;
     font-size: 1.4rem;
+    padding: 10px 20px;
+    border-radius: 5px;
   }
 
-  .menu-active a:hover {
-    color: #007bff;
+  .menu-icon button:hover {
+    color: red;
+    background-color: #333;
+    cursor: pointer;
   }
 }
