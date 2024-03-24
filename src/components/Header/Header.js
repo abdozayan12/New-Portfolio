@@ -4,13 +4,18 @@ import './Header.css';
 import logo from '../assets/My Logo.jpg';
 
 function Header() {
-  const menuIcon = useRef();
+  const menu = useRef();
+
+  const toggleMenu = () => {
+    menu.current.classList.toggle('active');
+  };
 
   return (
     <section className="fixed">
-      <nav className="navBar" ref={menuIcon}>
+      <nav className="navBar" ref={menu}>
         <div>
-          <img src={logo} alt="Logo" className="logo" />
+          <a href="#home" className="logo"><img src={logo} alt="Logo" className="logo" /></a>
+
         </div>
         <div className="menu">
           <a href="#home">Home</a>
@@ -21,13 +26,18 @@ function Header() {
         <div className="CV">
           <a href="https://drive.google.com/file/d/1gnCYa93ft0sJdpm4BpnEwZ6ZBRhK8wqJ/view?usp=sharing" target="_blank" rel="noreferrer">Get my CV</a>
         </div>
-        <button type="button" className="menu-icon" aria-label="close menu">
-          <FaTimes />
-        </button>
-      </nav>
-      <button type="button" className="menu-icon" aria-label="Open menu"><FaBars /></button>
-    </section>
+        <div className="menu-icon">
+          <button type="button" className="menuIcon" aria-label="Open menu" onClick={toggleMenu}>
+            <FaBars />
+          </button>
+          <button type="button" className="closeIcon" aria-label="close menu" onClick={toggleMenu}>
+            <FaTimes />
+          </button>
+        </div>
 
+      </nav>
+
+    </section>
   );
 }
 export default Header;
