@@ -36,7 +36,6 @@ const Contact = () => {
         <p className="forMobile">Got somthing in mind? Let&#39;s talk about it!</p>
         <p>
           I&#39;m currently looking for new opportunities, my inbox is always open.
-          <br />
           Whether you have a question or just want to say hi,
           I&#39;ll try my best to get back to you!
         </p>
