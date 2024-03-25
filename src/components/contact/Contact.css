@@ -1,30 +1,57 @@
 .contact {
-  padding: 50px 0;
-  background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+  background-color: #06325e;
   text-align: center;
+    opacity: 0.9;
+    border-top-left-radius: 15%;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.contact-header {
+    margin-bottom: 30px;
+    margin-inline: 10%;
+  }
 
 .contact h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  font-weight: 800;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #a0c0e6 var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #dfb7b7 var(--tw-gradient-to-position);
+
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .contact p {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
+  --tw-gradient-from: #bbe6db var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #e8ecde var(--tw-gradient-to-position);
+
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .contact .contact-form-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  opacity: .8;
 }
 
 .contact .contact-form-cont {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  max-width: 800px;
+  width: 100%;
+  /* max-width: 800px; */
 }
 
 .contact .contact-form {
@@ -32,13 +59,13 @@
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  flex: 1;
+  width: 100%;
   margin-right: 20px;
 }
 
 .contact .form-element {
   margin-bottom: 30px;
-  width: 100%;
+  width: 90%;
 }
 
 .contact label {
