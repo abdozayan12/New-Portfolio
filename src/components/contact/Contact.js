@@ -23,7 +23,7 @@ const Contact = () => {
       timer = setTimeout(() => {
         setSubmitted(false);
         setFormData({ name: '', email: '', message: '' });
-      }, 10);
+      }, 100);
     }
 
     return () => clearTimeout(timer);
