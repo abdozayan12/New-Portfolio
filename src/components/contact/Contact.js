@@ -31,13 +31,16 @@ const Contact = () => {
 
   return (
     <section className="contact" id="contact">
-      <h2>Let&apos;s Connect</h2>
-      <p className="forMobile">Got somthing in mind? Let&#39;s talk about it!</p>
-      <p>
-        I&#39;m currently looking for new opportunities, my inbox is always open.
-        <br />
-        Whether you have a question or just want to say hi, I&#39;ll try my best to get back to you!
-      </p>
+      <div className="contact-header">
+        <h2>Let&apos;s Connect</h2>
+        <p className="forMobile">Got somthing in mind? Let&#39;s talk about it!</p>
+        <p>
+          I&#39;m currently looking for new opportunities, my inbox is always open.
+          <br />
+          Whether you have a question or just want to say hi,
+          I&#39;ll try my best to get back to you!
+        </p>
+      </div>
       <div className="contact-form-container">
         <div className="contact-form-cont">
           <form onSubmit={onSubmit} className="contact-form">
