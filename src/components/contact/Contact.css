@@ -1,24 +1,25 @@
 .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 20px 0;
   background-color: #06325e;
   text-align: center;
-    opacity: 0.9;
-    border-top-left-radius: 15%;
-    font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.9;
+  border-top-left-radius: 15%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-header {
-    margin-bottom: 30px;
-    margin-inline: 10%;
-  }
+  margin-bottom: 30px;
+  margin-inline: 10%;
+}
 
 .contact h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   font-weight: 800;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
   --tw-gradient-from: #a0c0e6 var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #dfb7b7 var(--tw-gradient-to-position);
@@ -44,13 +45,14 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .contact .contact-form-cont {
   display: flex;
   flex-direction: row;
   width: 100%;
+
   /* max-width: 800px; */
 }
 
