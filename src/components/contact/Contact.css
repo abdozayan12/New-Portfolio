@@ -52,8 +52,6 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-
-  /* max-width: 800px; */
 }
 
 .contact .contact-form {
@@ -84,6 +82,10 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
+}
+
+.contact textarea {
+  height: 150px;
 }
 
 .contact .submit-button {
