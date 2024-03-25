@@ -23,7 +23,7 @@ const Contact = () => {
       timer = setTimeout(() => {
         setSubmitted(false);
         setFormData({ name: '', email: '', message: '' });
-      }, 100);
+      }, 5000);
     }
 
     return () => clearTimeout(timer);
@@ -93,7 +93,6 @@ const Contact = () => {
             {submitted && (
               <div className="success-message">
                 <h2>Thanks for contacting me!</h2>
-                <p>I&apos;ll get back to you soon.</p>
               </div>
             )}
           </form>
