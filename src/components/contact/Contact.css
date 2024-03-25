@@ -99,8 +99,8 @@
 }
 
 .contact .submit-button:hover {
-    background-color: #308db8;
-    cursor: pointer;
+  background-color: #308db8;
+  cursor: pointer;
 }
 
 .contact .success-message {
@@ -113,81 +113,82 @@
 }
 
 @media (max-width: 768px) {
-    .contact {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        background-color: #06325e;
-        text-align: center;
-        opacity: 0.9;
-        border-top-left-radius: 15%;
-        font-family: Arial, Helvetica, sans-serif;
-        }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #06325e;
+    text-align: center;
+    opacity: 0.9;
+    border-top-left-radius: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-        .contact-header {
-            margin: 0;
-        }
-        .contact h2 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-        }
-        
-        .contact p {
-            display: none;
-        }
+  .contact-header {
+    margin: 0;
+  }
 
-        .contact .forMobile {
-            display: block;
-            font-size: 1.2rem;
-        }
-        
-        .contact .contact-form-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0.8;
-        }
-        
-        .contact .contact-form {
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        margin-top: 20px;
-        }
-        
-        .contact .form-element {
-        margin-bottom: 20px;
-        }
-        
-        .contact label {
-        font-size: 1rem;
-        }
-        
-        .contact input,
-        .contact textarea {
-        width: 100%;
-        padding: 10px;
-        margin-top: 5px;
-        }
-        
-        .contact textarea {
-        height: 100px;
-        }
-        
-        .contact .submit-button {
-        padding: 10px 20px;
-        font-size: 1rem;
-        }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
 
-        .contact .submit-button:hover {
-            background-color: #308db8;
-            cursor: pointer;
-        }
-        
-        .contact .success-message {
-        margin-top: 20px;
-        padding: 15px;
-        font-size: 1rem;
-        }
-    }
+  .contact p {
+    display: none;
+  }
+
+  .contact .forMobile {
+    display: block;
+    font-size: 1.2rem;
+  }
+
+  .contact .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+  }
+
+  .contact .contact-form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact .form-element {
+    margin-bottom: 20px;
+  }
+
+  .contact label {
+    font-size: 1rem;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  .contact textarea {
+    height: 100px;
+  }
+
+  .contact .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .contact .submit-button:hover {
+    background-color: #308db8;
+    cursor: pointer;
+  }
+
+  .contact .success-message {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1rem;
+  }
+}
