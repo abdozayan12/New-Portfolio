@@ -2,7 +2,7 @@
     background-color: #222;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
   }
@@ -12,16 +12,6 @@
     margin-right: 20px;
   }
   
-  .footer-nav a {
-    color: #ddd;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  .footer-nav a:hover {
-    color: #fff;
-  }
-  
   .footer-socials a {
     color: #ddd;
     margin: 0 10px;
@@ -29,4 +19,16 @@
   
   .footer-socials a:hover {
     color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .footer-logo {
+        display: none;
+    }
   }
