@@ -12,12 +12,6 @@ function Footer() {
           <div className="footer-logo">
             <a href="#home" className="logo"><img src={logo} alt="Logo" className="logo" /></a>
           </div>
-          <div className="footer-nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Projects</a>
-            <a href="#contact">Contact</a>
-          </div>
           <div className="footer-socials">
             <a
               href="https://github.com/abdozayan12"
@@ -36,7 +30,11 @@ function Footer() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
+          <div className="footer-copy">
+            <p>&copy; 2024 Abdo Zayan. All rights reserved.</p>
+          </div>
         </div>
+
       </footer>
 
     </div>
