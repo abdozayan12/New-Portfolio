@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Intro from './components/intro/Intro';
 import Contact from './components/contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const App = () => (
   <Router>
@@ -12,6 +13,7 @@ const App = () => (
       </div>
       <Intro />
       <Contact />
+      <Footer />
     </div>
   </Router>
 );
