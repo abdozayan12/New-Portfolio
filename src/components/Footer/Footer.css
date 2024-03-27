@@ -1,0 +1,32 @@
+.footer-container {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer-logo .logo {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: #ddd;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-nav a:hover {
+    color: #fff;
+  }
+  
+  .footer-socials a {
+    color: #ddd;
+    margin: 0 10px;
+  }
+  
+  .footer-socials a:hover {
+    color: #fff;
+  }
