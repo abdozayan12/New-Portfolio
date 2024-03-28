@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Projects() {
   return (
-    <section>
-        <h1>Projects</h1>
-        </section>
-  )
+    <section className="projects-container">
+      <h1>Projects</h1>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
