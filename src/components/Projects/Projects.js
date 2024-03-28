@@ -2,9 +2,9 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div>
-      
-    </div>
+    <section>
+        <h1>Projects</h1>
+        </section>
   )
 }
 
