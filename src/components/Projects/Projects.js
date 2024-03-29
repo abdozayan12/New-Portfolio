@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-function Projects() {
+const Projects = () => {
   return (
-    <section className="projects-container">
-      <h1>Projects</h1>
-      <div className="project-card" />
-    </section>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-export default Projects;
+export default Projects
