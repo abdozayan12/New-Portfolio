@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Intro from './components/intro/Intro';
 import Contact from './components/contact/Contact';
 import Footer from './components/Footer/Footer';
+import About from './components/About/About';
 
 const App = () => (
   <Router>
@@ -12,6 +13,7 @@ const App = () => (
         <Header />
       </div>
       <Intro />
+      <About />
       <Contact />
       <Footer />
     </div>

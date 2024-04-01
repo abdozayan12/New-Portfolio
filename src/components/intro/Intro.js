@@ -31,7 +31,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <section className="homepage" id="homepage">
+    <section className="homepage" id="home">
       <div className="homepage-content">
         <h1>Hi, I&apos;m Abdelhakim Zayan</h1>
         <p className="me">
