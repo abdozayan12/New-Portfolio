@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 
 const About = () => (
-  <section id="about">
+  <section className="about" id="about">
     <div className="skill-card">
       <h2>Frontend</h2>
       <ul>
