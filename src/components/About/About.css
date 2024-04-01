@@ -21,3 +21,21 @@
     transform: scale(1.05);
     background-color: bisque;
 }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    border: 1px solid #b95c5c;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-inline: 5px;
+    padding: 10px;
+}
