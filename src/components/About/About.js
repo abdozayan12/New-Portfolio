@@ -24,6 +24,16 @@ const About = () => (
           <li>RESTful APIs</li>
         </ul>
       </div>
+      <div className="skill-card">
+        <h2>Professional</h2>
+        <ul className="list">
+          <li>Remote Pair-Programming</li>
+          <li>Teamwork</li>
+          <li>Collaboration</li>
+          <li>Dev Tools</li>
+          <li>Git&Github</li>
+        </ul>
+      </div>
     </div>
   </section>
 );
