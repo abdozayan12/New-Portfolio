@@ -11,6 +11,10 @@
   justify-content: center;
   text-align: center;
   border-bottom-right-radius: 15%;
+  background-image: url(../assets/Purple\ Sky\ Profile\ Header.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .homepage-content h1 {
