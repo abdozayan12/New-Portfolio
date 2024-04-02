@@ -1,6 +1,7 @@
 .about {
   background-color: #06325e;
   padding: 50px 0;
+
   /* background-image: url(../assets/Purple\ Sky\ Profile\ Header.png);
   background-size: cover;
   background-position: center;
@@ -10,14 +11,16 @@
 
 .about h2 {
   font-size: 2.5rem;
-    margin: 0;
-    font-weight: 800;
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
-    --tw-gradient-from: #a0c0e6 var(--tw-gradient-from-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    --tw-gradient-to: #dfb7b7 var(--tw-gradient-to-position);
-    -webkit-background-clip: text;
-    color: transparent;
+  margin: 0;
+  font-weight: 800;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
+  --tw-gradient-from: #a0c0e6 var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #dfb7b7 var(--tw-gradient-to-position);
+
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .about p {
@@ -26,9 +29,11 @@
   font-size: 1.5rem;
   margin-bottom: 20px;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
   --tw-gradient-from: #bbe6db var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #e8ecde var(--tw-gradient-to-position);
+
   -webkit-background-clip: text;
   color: transparent;
   margin-inline: 10%;
@@ -75,13 +80,13 @@
 
 .list li {
   border: 1px solid #06325e;
-    border-radius: 10px;
-    color: #06325e;
-    display: flex;
-    font-size: 1.1em;
-    margin-bottom: 8px;
-    margin-inline: 5px;
-    padding: 10px;
+  border-radius: 10px;
+  color: #06325e;
+  display: flex;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  margin-inline: 5px;
+  padding: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
