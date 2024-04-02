@@ -5,7 +5,7 @@ const About = () => (
   <section className="about" id="about">
     <div className="about-cards">
       <div className="skill-card">
-        <h2>Frontend</h2>
+        <h3>Frontend</h3>
         <ul className="list">
           <li>HTML</li>
           <li>CSS</li>
@@ -15,7 +15,7 @@ const About = () => (
         </ul>
       </div>
       <div className="skill-card">
-        <h2>Backend</h2>
+        <h3>Backend</h3>
         <ul className="list">
           <li>Node.js</li>
           <li>Express</li>
@@ -25,7 +25,7 @@ const About = () => (
         </ul>
       </div>
       <div className="skill-card">
-        <h2>Professional</h2>
+        <h3>Professional</h3>
         <ul className="list">
           <li>Remote Pair-Programming</li>
           <li>Teamwork</li>
