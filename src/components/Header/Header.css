@@ -54,9 +54,19 @@
   display: none;
 }
 
+.menu-link.active {
+  color: yellowgreen;
+  border-bottom: 1px solid yellowgreen;
+}
+
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
   }
 
   .logo {
