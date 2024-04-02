@@ -31,8 +31,6 @@
   --tw-gradient-to: #e8ecde var(--tw-gradient-to-position);
   -webkit-background-clip: text;
   color: transparent;
-
-  color: transparent;
   margin-inline: 10%;
   text-align: center;
 }
@@ -57,7 +55,7 @@
 
 .skill-card:hover {
   transform: scale(1.05);
-  background-color: #d4d4d4;;
+  background-color: #bcc6d0;
 }
 
 .skill-card h3 {
@@ -76,19 +74,20 @@
 }
 
 .list li {
-  border: 1px solid #b95c5c;
-  border-radius: 10px;
-  display: flex;
-  font-size: 1.1em;
-  color: #333;
-  margin-bottom: 8px;
-  margin-inline: 5px;
-  padding: 10px;
+  border: 1px solid #06325e;
+    border-radius: 10px;
+    color: #06325e;
+    display: flex;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-inline: 5px;
+    padding: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
 .list li:hover {
-  background-color: #b95c5c;
+  border: 1px solid #050b11;
+  background-color: #06325e;
   color: #fff;
   transform: scale(1.05);
 }
