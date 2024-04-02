@@ -4,6 +4,15 @@ import './About.css';
 const About = () => (
   <section className="about" id="about">
     <div className="about-cards">
+      <h2>About Me</h2>
+      <p>
+        I am a Full Stack Developer with a passion for creating beautiful and
+        functional web applications. I have a background in Engineering,
+        and I am a graduate of the Full Stack Web Development program
+        at Microverse School. I am a quick learner and a team player, and I am
+        excited to bring my skills to a team that is passionate about creating
+        great products.
+      </p>
       <div className="skill-card">
         <h3>Frontend</h3>
         <ul className="list">
