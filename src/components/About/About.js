@@ -26,11 +26,12 @@ const About = () => (
       <div className="skill-card">
         <h3>Backend</h3>
         <ul className="list">
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>Python</li>
-          <li>Flask</li>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>PostgreSQL</li>
+          <li>RSpec</li>
           <li>RESTful APIs</li>
+          <li>Jest</li>
         </ul>
       </div>
       <div className="skill-card">
