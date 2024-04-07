@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Projects = () => (
-  <div>
+  <section>
     <h1>Some of my work</h1>
     <div>
       </div>
-  </div>
+  </section>
 );
 
 export default Projects;
