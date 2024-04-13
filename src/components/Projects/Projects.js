@@ -69,6 +69,39 @@ const Projects = () => {
       liveDemoLink: '',
       githubSourceLink: '',
     },
+    {
+      id: 7,
+      title: 'Weather App',
+      tech: 'React, Redux and external API.',
+      description:
+        '"Weather App" is a web application that provides users with real-time weather data. Users can search for weather information by city name and view details such as temperature, humidity, and wind speed.',
+      imageUrl: backImage,
+      modalImg: weatherAppImage,
+      liveDemoLink: '',
+      githubSourceLink: '',
+    },
+    {
+      id: 8,
+      title: 'Calculator',
+      tech: 'React and CSS.',
+      description:
+        '"Calculator" is a web application built with React and CSS, allowing users to perform basic arithmetic operations. Users can add, subtract, multiply, and divide numbers with ease.',
+      imageUrl: backImage,
+      modalImg: calculatorImage,
+      liveDemoLink: '',
+      githubSourceLink: '',
+    },
+    {
+      id: 9,
+      title: 'Portfolio',
+      tech: 'React, CSS and Webpack.',
+      description:
+        '"Portfolio" is a personal website built with React and CSS, showcasing my projects, skills, and contact information. Users can explore my portfolio and get in touch with me for collaboration or inquiries.',
+      imageUrl: backImage,
+      modalImg: portfolioImage,
+      liveDemoLink: '',
+      githubSourceLink: '',
+    }
   ];
 }
 
