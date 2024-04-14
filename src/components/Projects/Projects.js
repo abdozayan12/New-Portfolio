@@ -115,7 +115,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="Projects">
       {projects.map((project) => (
         <div key={project.id} className="project-card">
           <div className="project-image">
