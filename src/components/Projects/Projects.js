@@ -9,6 +9,7 @@ import bookstoreImage from '../assets/ProjectsImages/bookstore.png';
 import weatherAppImage from '../assets/ProjectsImages/weather.png';
 import conferenceImage from '../assets/ProjectsImages/conference.png';
 import DishImage from '../assets/ProjectsImages/dish.png';
+import './Projects.css';
 
 const Projects = () => {
   const projects = [
@@ -113,26 +114,30 @@ const Projects = () => {
     },
   ];
 
-  projects.map((project) => (
-    <div key={project.id} className="project-card">
-      <div className="project-image">
-        <img src={project.imageUrl} alt="project" />
-      </div>
-      <div className="project-details">
-        <h3>{project.title}</h3>
-        <p>{project.tech}</p>
-        <p>{project.description}</p>
-        <div className="project-links">
-          <a href={project.liveDemoLink} target="_blank" rel="noreferrer">
-            Live Demo
-          </a>
-          <a href={project.githubSourceLink} target="_blank" rel="noreferrer">
-            Source Code
-          </a>
+  return (
+    <div className="projects-container">
+      {projects.map((project) => (
+        <div key={project.id} className="project-card">
+          <div className="project-image">
+            <img src={project.imageUrl} alt="project" />
+          </div>
+          <div className="project-details">
+            <h3>{project.title}</h3>
+            <p>{project.tech}</p>
+            <p>{project.description}</p>
+            <div className="project-links">
+              <a href={project.liveDemoLink} target="_blank" rel="noreferrer">
+                Live Demo
+              </a>
+              <a href={project.githubSourceLink} target="_blank" rel="noreferrer">
+                Source Code
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
-  ));
+  );
 };
 
 export default Projects;
