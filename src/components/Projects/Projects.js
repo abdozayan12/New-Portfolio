@@ -1,14 +1,14 @@
 import React from 'react';
-import backImage from '../../assets/back-image.jpg';
-import resortImage from '../../assets/resort-vista.png';
-import budgetAppImage from '../../assets/budget-app.png';
-import spaceTravelersImage from '../../assets/space-travelers-hub.png';
-import exploreCountriesImage from '../../assets/explore-countries.png';
-import toDoAppImage from '../../assets/to-do-app.png';
-import bookstoreImage from '../../assets/bookstore.png';
-import weatherAppImage from '../../assets/weather-app.png';
-import calculatorImage from '../../assets/calculator.png';
-import portfolioImage from '../../assets/portfolio.png';
+import backImage from '../assets/Purple Sky Profile Header.png';
+import resortImage from '../assets/ProjectsImages/resort.png';
+import budgetAppImage from '../assets/ProjectsImages/budget.png';
+import spaceTravelersImage from '../assets/ProjectsImages/space.png';
+import exploreCountriesImage from '../assets/ProjectsImages/country.png';
+import toDoAppImage from '../assets/ProjectsImages/todo.png';
+import bookstoreImage from '../assets/ProjectsImages/bookstore.png';
+import weatherAppImage from '../assets/ProjectsImages/weather.png';
+import conferenceImage from '../assets/ProjectsImages/conference.png';
+import DishImage from '../assets/ProjectsImages/dish.png';
 
 const Projects = () => {
   const projects = [
@@ -91,28 +91,28 @@ const Projects = () => {
     },
     {
       id: 8,
-      title: 'Calculator',
-      tech: 'React and CSS.',
+      title: 'conference',
+      tech: 'HTML, CSS and JavaScript.',
       description:
-        '"Calculator" is a web application built with React and CSS, allowing users to perform basic arithmetic operations. Users can add, subtract, multiply, and divide numbers with ease.',
+        '"Conference" is a responsive web page built with HTML, CSS, and JavaScript. The project showcases a conference website with a landing page, schedule, speakers, and ticket information. Users can explore the conference details and register for the event.',
       imageUrl: backImage,
-      modalImg: calculatorImage,
+      modalImg: conferenceImage,
       liveDemoLink: '',
       githubSourceLink: '',
     },
     {
       id: 9,
-      title: 'Portfolio',
-      tech: 'React, CSS and Webpack.',
+      title: 'Dish Discovery',
+      tech: 'API, CSS, JavaScript and Webpack.',
       description:
-        '"Portfolio" is a personal website built with React and CSS, showcasing my projects, skills, and contact information. Users can explore my portfolio and get in touch with me for collaboration or inquiries.',
+        '"Dish Discovery" is a web application that allows users to explore and discover new dishes. Users can view dish details, search for dishes, and filter dishes by category. The project is built with React, CSS, and Webpack.',
       imageUrl: backImage,
-      modalImg: portfolioImage,
+      modalImg: DishImage,
       liveDemoLink: '',
       githubSourceLink: '',
     },
   ];
-  
+
   projects.map((project) => (
     <div key={project.id} className="project-card">
       <div className="project-image">
