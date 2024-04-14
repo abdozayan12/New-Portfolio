@@ -23,7 +23,7 @@ function Header() {
           <div className="menu">
             <a href="#home" className={`menu-link ${activeLink === '#home' ? 'active' : ''}`} onClick={toggleMenu}>Home</a>
             <a href="#about" className={`menu-link ${activeLink === '#about' ? 'active' : ''}`} onClick={toggleMenu}>About</a>
-            <a href="#portfolio" className={`menu-link ${activeLink === '#portfolio' ? 'active' : ''}`} onClick={toggleMenu}>Portfolio</a>
+            <a href="#Projects" className={`menu-link ${activeLink === '#Projects' ? 'active' : ''}`} onClick={toggleMenu}>Projects</a>
             <a href="#contact" className={`menu-link ${activeLink === '#contact' ? 'active' : ''}`} onClick={toggleMenu}>Contact</a>
           </div>
         </div>
