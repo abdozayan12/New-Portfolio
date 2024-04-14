@@ -1,5 +1,14 @@
 import React from 'react';
-
+import backImage from '../../assets/back-image.jpg';
+import resortImage from '../../assets/resort-vista.png';
+import budgetAppImage from '../../assets/budget-app.png';
+import spaceTravelersImage from '../../assets/space-travelers-hub.png';
+import exploreCountriesImage from '../../assets/explore-countries.png';
+import toDoAppImage from '../../assets/to-do-app.png';
+import bookstoreImage from '../../assets/bookstore.png';
+import weatherAppImage from '../../assets/weather-app.png';
+import calculatorImage from '../../assets/calculator.png';
+import portfolioImage from '../../assets/portfolio.png';
 
 const Projects = () => {
   const projects = [
@@ -45,7 +54,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: exploreCountriesImage,
       liveDemoLink: '',
-      githubSourceLink:'',
+      githubSourceLink: '',
     },
     {
       id: 5,
@@ -101,31 +110,29 @@ const Projects = () => {
       modalImg: portfolioImage,
       liveDemoLink: '',
       githubSourceLink: '',
-    }
+    },
   ];
-  return
-  {
-    projects.map((project) => (
-      <div key={project.id} className="project-card">
-        <div className="project-image">
-          <img src={project.imageUrl} alt="project" />
-        </div>
-        <div className="project-details">
-          <h3>{project.title}</h3>
-          <p>{project.tech}</p>
-          <p>{project.description}</p>
-          <div className="project-links">
-            <a href={project.liveDemoLink} target="_blank" rel="noreferrer">
-              Live Demo
-            </a>
-            <a href={project.githubSourceLink} target="_blank" rel="noreferrer">
-              Source Code
-            </a>
-          </div>
+  
+  projects.map((project) => (
+    <div key={project.id} className="project-card">
+      <div className="project-image">
+        <img src={project.imageUrl} alt="project" />
+      </div>
+      <div className="project-details">
+        <h3>{project.title}</h3>
+        <p>{project.tech}</p>
+        <p>{project.description}</p>
+        <div className="project-links">
+          <a href={project.liveDemoLink} target="_blank" rel="noreferrer">
+            Live Demo
+          </a>
+          <a href={project.githubSourceLink} target="_blank" rel="noreferrer">
+            Source Code
+          </a>
         </div>
       </div>
-    ));
-  }
-}
+    </div>
+  ));
+};
 
 export default Projects;
