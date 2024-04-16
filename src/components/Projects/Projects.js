@@ -44,7 +44,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: spaceTravelersImage,
       liveDemoLink: 'https://space-traveler-1wv4.onrender.com/',
-      githubSourceLink: '',
+      githubSourceLink: 'https://github.com/abdozayan12/space_travelers',
     },
     {
       id: 4,
