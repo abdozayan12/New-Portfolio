@@ -33,7 +33,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: budgetAppImage,
       liveDemoLink: 'https://budget-app-8pq6.onrender.com/',
-      githubSourceLink: '',
+      githubSourceLink: 'https://github.com/abdozayan12/Budget-App',
     },
     {
       id: 3,
