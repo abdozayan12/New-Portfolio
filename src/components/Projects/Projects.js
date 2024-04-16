@@ -98,7 +98,7 @@ const Projects = () => {
         '"Conference" is a responsive web page built with HTML, CSS, and JavaScript. The project showcases a conference website with a landing page, schedule, speakers, and ticket information. Users can explore the conference details and register for the event.',
       imageUrl: backImage,
       modalImg: conferenceImage,
-      liveDemoLink: '',
+      liveDemoLink: 'https://abdozayan12.github.io/capstone-project---Conference-page/',
       githubSourceLink: 'https://github.com/abdozayan12/capstone-project---Conference-page',
     },
     {
