@@ -99,7 +99,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: conferenceImage,
       liveDemoLink: '',
-      githubSourceLink: '',
+      githubSourceLink: 'https://github.com/abdozayan12/capstone-project---Conference-page',
     },
     {
       id: 9,
