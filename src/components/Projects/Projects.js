@@ -43,7 +43,7 @@ const Projects = () => {
         '"Space Travelers Hub" is a dynamic single-page web app connecting users to comprehensive rocket and mission data from SpaceX. Explore rockets, missions, and your profile seamlessly.',
       imageUrl: backImage,
       modalImg: spaceTravelersImage,
-      liveDemoLink: '',
+      liveDemoLink: 'https://space-traveler-1wv4.onrender.com/',
       githubSourceLink: '',
     },
     {
