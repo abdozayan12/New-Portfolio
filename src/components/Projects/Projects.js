@@ -54,7 +54,7 @@ const Projects = () => {
         '"Explore The Countries" is a web application built using React and Redux that displays information about different countries. It consists of the following main pages: Homepage and Details. The project provides a user-friendly interface for users to search, sort, and view details about different countries.',
       imageUrl: backImage,
       modalImg: exploreCountriesImage,
-      liveDemoLink: '',
+      liveDemoLink: 'https://react-capstone-project-05mk.onrender.com/',
       githubSourceLink: 'https://github.com/abdozayan12/REACT-CAPSTONE-PROJECT',
     },
     {
