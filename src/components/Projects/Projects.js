@@ -110,7 +110,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: DishImage,
       liveDemoLink: '',
-      githubSourceLink: '',
+      githubSourceLink: 'https://github.com/abdozayan12/Dish-Discovery',
     },
   ];
 
