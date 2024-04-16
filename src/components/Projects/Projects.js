@@ -109,7 +109,7 @@ const Projects = () => {
         '"Dish Discovery" is a web application that allows users to explore and discover new dishes. Users can view dish details, search for dishes, and filter dishes by category. The project is built with React, CSS, and Webpack.',
       imageUrl: backImage,
       modalImg: DishImage,
-      liveDemoLink: '',
+      liveDemoLink: 'https://abdozayan12.github.io/Dish-Discovery/dist/',
       githubSourceLink: 'https://github.com/abdozayan12/Dish-Discovery',
     },
   ];
