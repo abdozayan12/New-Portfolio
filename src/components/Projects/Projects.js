@@ -22,7 +22,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: resortImage,
       liveDemoLink: 'https://resortvista.onrender.com/',
-      githubSourceLink: '',
+      githubSourceLink: 'https://github.com/abdozayan12/resort-front-end',
     },
     {
       id: 2,
