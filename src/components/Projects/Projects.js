@@ -32,7 +32,7 @@ const Projects = () => {
         '"Budget App" is a Ruby on Rails mobile application designed to help users manage their expenses and budgets. With Budget App, users can track their expenses and categorize them to improve their financial management.',
       imageUrl: backImage,
       modalImg: budgetAppImage,
-      liveDemoLink: '',
+      liveDemoLink: 'https://budget-app-8pq6.onrender.com/',
       githubSourceLink: '',
     },
     {
