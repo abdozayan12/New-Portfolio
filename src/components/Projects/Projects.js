@@ -55,7 +55,7 @@ const Projects = () => {
       imageUrl: backImage,
       modalImg: exploreCountriesImage,
       liveDemoLink: '',
-      githubSourceLink: '',
+      githubSourceLink: 'https://github.com/abdozayan12/REACT-CAPSTONE-PROJECT',
     },
     {
       id: 5,
