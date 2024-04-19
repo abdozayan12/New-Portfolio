@@ -39,3 +39,12 @@
   padding: 10px;
 }
 
+.project-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.project-links a:hover {
+  color: #007bff;
+}
