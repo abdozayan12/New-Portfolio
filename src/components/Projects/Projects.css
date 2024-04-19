@@ -31,3 +31,11 @@
 .project-details {
   padding: 10px;
 }
+
+.project-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
