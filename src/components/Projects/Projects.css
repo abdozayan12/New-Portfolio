@@ -28,6 +28,18 @@
   
 }
 
+.project-item {
+  padding: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+}
+
 .project-details {
   padding: 10px;
 }
