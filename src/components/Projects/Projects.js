@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectModals from './ProjectModals';
 import backImage from '../assets/Purple Sky Profile Header.png';
 import resortImage from '../assets/ProjectsImages/resort.png';
 import budgetAppImage from '../assets/ProjectsImages/budget.png';
@@ -115,27 +116,32 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-container" id="Projects">
-      {projects.map((project) => (
-        <div key={project.id} className="project-card">
-          <div className="project-image">
-            <img src={project.imageUrl} alt="project" />
-          </div>
-          <div className="project-details">
-            <h3>{project.title}</h3>
-            <p>{project.tech}</p>
-            <p>{project.description}</p>
-            <div className="project-links">
-              <a href={project.liveDemoLink} target="_blank" rel="noreferrer">
-                Live Demo
-              </a>
-              <a href={project.githubSourceLink} target="_blank" rel="noreferrer">
-                Source Code
-              </a>
+    <div id="projects">
+      <div className="projects-header">
+        <h2 className="project-title"> My Recent Works</h2>
+      </div>
+      <div className="projects-wrapper">
+        <div className="project-list">
+          {projects.map((project) => (
+            <div key={project.id} className="project-item">
+              <img src={project.imageUrl || backImage} alt={project.title} />
+              <h3>{project.title}</h3>
+              <p>{project.tech}</p>
+              <div className="button-group">
+                <ProjectModals
+                  title={project.title}
+                  tech={project.tech}
+                  description={project.description}
+                  imageUrl={project.imageUrl}
+                  modalImg={project.modalImg}
+                  liveDemoLink={project.liveDemoLink}
+                  githubSourceLink={project.githubSourceLink}
+                />
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 };
