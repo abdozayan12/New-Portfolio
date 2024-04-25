@@ -1,0 +1,41 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: #fff;
+  }
+  
+  .title-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .title-img h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .title-img p {
+    color: #666;
+  }
+  
+  .title-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 1em;
+  }
+  
+  .text-modal {
+    margin-top: 2em;
+    color: #333;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
