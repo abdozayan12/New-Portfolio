@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import styled from 'styled-components';
+import './Model.css';
 
 const ImageContainer = styled.div`
   position: relative;
@@ -36,7 +37,7 @@ const ProjectModals = ({
       padding: '20px',
       display: 'flex',
       alignItems: 'center',
-      width: '80%',
+      width: '75%',
     },
     closeButton: {
       position: 'absolute',
@@ -48,8 +49,8 @@ const ProjectModals = ({
       fontSize: '18px',
     },
     modalImage: {
-      width: '100%',
-      height: 'auto',
+      width: '75%',
+      height: '75',
       borderRadius: '8px',
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     },
