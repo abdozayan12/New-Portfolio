@@ -10,3 +10,9 @@
   margin-bottom: 50px;
   text-align: center;
 }
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
