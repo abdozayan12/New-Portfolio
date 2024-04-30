@@ -27,7 +27,7 @@
 }
 
 .menu a {
-  color: #fff;
+  color: #484040;
   text-decoration: none;
   font-size: 1.4rem;
 }
@@ -52,11 +52,28 @@
 
 .menu-icon {
   display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 1rem 0;
 }
 
 .menu-link.active {
   color: yellowgreen;
   border-bottom: 1px solid yellowgreen;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
