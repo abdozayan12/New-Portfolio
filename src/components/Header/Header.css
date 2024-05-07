@@ -1,4 +1,10 @@
-
+.header {
+  background-color: #a6a6a6;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
 .desktop-view {
   display: flex;
   justify-content: space-between;
