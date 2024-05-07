@@ -116,7 +116,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="Projects" className="Projects">
+    <div id="projects" className="Projects">
       <div className="projects-header">
         <h2 className="project-title"> My Recent Works</h2>
       </div>
