@@ -9,16 +9,8 @@
   height: 30px;
 }
 
-.menu {
+.nav-menu {
   display: flex;
-  justify-content: center; /* Align the menu items in the center of the div */
-  gap: 20px;
-}
-
-.menu a {
-  color: #484040;
-  text-decoration: none;
-  font-size: 1.4rem;
 }
 
 .CV a {
@@ -43,11 +35,6 @@
   display: none;
   font-size: 2rem;
   cursor: pointer;
-}
-
-.nav-menu {
-  display: flex;
-  align-items: center;
 }
 
 .nav-link {
