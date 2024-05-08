@@ -33,13 +33,8 @@
   font-size: 1.4rem;
 }
 
-.menu a:hover {
-  color: #007bff;
-}
-
 .CV a:hover {
-  background-color: #499ffc;
-  color: blanchedalmond;
+  color: #007bff;
 }
 
 .menu-icon {
