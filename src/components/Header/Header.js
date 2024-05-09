@@ -31,7 +31,7 @@ const Header = () => {
         {showMenu ? <FaTimes /> : <FaBars />}
       </button>
       {showMenu && (
-        <nav className="nav-menu">
+        <nav className="nav-menu-mob">
           <a href="#home" className="nav-link">Home</a>
           <a href="#about" className="nav-link">About</a>
           <a href="#projects" className="nav-link">Projects</a>
