@@ -5,6 +5,7 @@
   width: 100%;
   z-index: 1000;
 }
+
 .desktop-view {
   display: flex;
   justify-content: space-between;
@@ -30,10 +31,6 @@
   font-weight: 500;
 }
 
-.nav-menu a:hover {
-  color: #007bff;
-}
-
 .CV a {
   color: #fff;
   text-decoration: none;
@@ -41,6 +38,10 @@
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.4rem;
+}
+
+.nav-menu a:hover {
+  color: #007bff;
 }
 
 .CV a:hover {
@@ -85,37 +86,3 @@
     background-color: #333;
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-
-  .menu.active {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .menu-icon button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    font-size: 1.4rem;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-
-  .menu-icon button:hover {
-    color: red;
-    background-color: #333;
-    cursor: pointer;
-  }
-} */
