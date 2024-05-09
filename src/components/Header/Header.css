@@ -25,6 +25,10 @@
   font-weight: 500;
 }
 
+.nav-menu-mob {
+  display: none;
+}
+
 .nav-menu a {
   color: #033f7f;
   text-decoration: none;
@@ -68,7 +72,7 @@
     display: none;
   }
 
-  .nav-menu {
+  .nav-menu-mob {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -77,11 +81,11 @@
     height: 100vh;
   }
 
-  .nav-menu a {
+  .nav-menu-mob a {
     color: #333;
   }
 
-  .nav-menu a:hover {
+  .nav-menu-mob a:hover {
     color: #007bff;
     background-color: #333;
   }
