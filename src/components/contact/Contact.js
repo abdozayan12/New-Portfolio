@@ -39,6 +39,7 @@ const Contact = () => {
           Whether you have a question or just want to say hi,
           I&#39;ll try my best to get back to you!
         </p>
+        <h3>Mobile number: +20 1555665444</h3>
       </div>
       <div className="contact-form-container">
         <div className="contact-form-cont">
