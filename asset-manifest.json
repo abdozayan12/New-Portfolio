@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.4a2eb3e0.css",
+    "main.js": "/new-portfolio/static/js/main.328dac59.js",
+    "static/js/453.d22c673f.chunk.js": "/new-portfolio/static/js/453.d22c673f.chunk.js",
+    "static/media/dish.png": "/new-portfolio/static/media/dish.53ad8fa4523f36767d4f.png",
+    "static/media/resort.png": "/new-portfolio/static/media/resort.7d1e333a4cc257b73350.png",
+    "static/media/conference.png": "/new-portfolio/static/media/conference.fe19b4172a1929e21f2b.png",
+    "static/media/space.png": "/new-portfolio/static/media/space.9db65924188e19eb14a7.png",
+    "static/media/weather.png": "/new-portfolio/static/media/weather.3c6447609c96b53f3176.png",
+    "static/media/budget.png": "/new-portfolio/static/media/budget.ae59241c42bab6d59399.png",
+    "static/media/country.png": "/new-portfolio/static/media/country.cd658c9158710a2bd0ad.png",
+    "static/media/bookstore.png": "/new-portfolio/static/media/bookstore.74f2ad0d9cefb8ed361a.png",
+    "static/media/todo.png": "/new-portfolio/static/media/todo.a8bf861ffd5211fcfa2a.png",
+    "index.html": "/new-portfolio/index.html",
+    "main.4a2eb3e0.css.map": "/new-portfolio/static/css/main.4a2eb3e0.css.map",
+    "main.328dac59.js.map": "/new-portfolio/static/js/main.328dac59.js.map",
+    "453.d22c673f.chunk.js.map": "/new-portfolio/static/js/453.d22c673f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a2eb3e0.css",
+    "static/js/main.328dac59.js"
+  ]
+}
