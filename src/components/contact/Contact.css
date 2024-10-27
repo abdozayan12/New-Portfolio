@@ -41,6 +41,13 @@
   color: transparent;
 }
 
+.contact h3{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: aqua;
+}
+
 .contact .contact-form-container {
   display: flex;
   justify-content: center;
